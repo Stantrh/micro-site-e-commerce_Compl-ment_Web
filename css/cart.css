@@ -74,6 +74,7 @@ main {
 .photo img {
 	width: 100%; /* Pour que l'image remplisse complètement le conteneur */
 	height: auto; /* Pour conserver les proportions de l'image */
+	object-fit: cover;
 }
 
 .product .details-top {
