@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Cart</title>
+	<link rel="icon" href="https://static-00.iconduck.com/assets.00/javascript-js-icon-2048x2048-nyxvtvk0.png" type="image/x-icon">
+	<!--
+  <link rel="stylesheet" href="node_modules/@mdi/font/css/materialdesignicons.min.css">
+  -->
+	<link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="css/cart.css">
+
+</head>
+<body>
+	<main>
+		<section id="products-wrapper">
+			<span class="mdi mdi-magnify">
+				<input type="text" id="product-search" placeholder="Rechercher un produit" />
+			</span>
+			<div id="product-list">
+				<!-- ici le contenu de la liste de produits ajouté par le script js -->
+			</div>
+		</section>
+		<section id="cart-wrapper">
+			<div id="cart-header">
+				<h2>Mon panier (<span id="total-products">0</span>)</h2>
+				<a id="empty-cart">Vider le panier</a>
+			</div>
+				<table id="cart-content"></table>
+			<div id="cart-footer">
+				<strong class="bigger">Total :&nbsp;</strong>
+				<span class="bigger" id="cart-total">0.00 €</span>
+			</div>
+		</section>
+	</main>
+	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+	<script type="module" src="modules/out/out.js"></script>
+<!--	<script  src="dist/index.js"></script>
+-->
+</body>
+
+</html>
+
+
+

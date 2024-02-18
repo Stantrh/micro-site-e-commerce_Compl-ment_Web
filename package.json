@@ -1,0 +1,10 @@
+{
+  "name": "tp_3",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "esbuild modules/main.js --bundle --outfile=modules/out/out.js",
+    "minify": "esbuild modules/main.js --bundle --outfile=modules/out/minify.js"
+  },
+  "private": true
+}
